@@ -9,8 +9,8 @@
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
 
   // Editor
-  "editor.fontSize": 18,
-  "editor.accessibilitySupport": "off",
+  "editor.fontSize": 23,
+  "editor.accessibilitySupport": "on",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.find.addExtraSpaceOnTop": false,
   "editor.guides.bracketPairs": "active",
@@ -24,7 +24,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.fixAll.eslint": true,
-    "source.organizeImports": false
+    "source.organizeImports": true
   },
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -79,14 +79,4 @@
     "**/yarn.lock": true,
     "**/coverage": true
   },
-
-  // Prettier
-  "prettier.printWidth": 100,
-  "prettier.semi": true,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "all",
-  "prettier.arrowParens": "avoid",
-  "prettier.jsxSingleQuote": true,
-  "prettier.htmlWhitespaceSensitivity": "css",
-  "prettier.endOfLine": "lf"
 }
